@@ -1,0 +1,11 @@
+{
+  //文件夹配备别名，src文件夹配置别名
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  // webpack打包时不对node依赖进行打包，优化速度
+  "exclude": ["node_modules", "dist"]
+}
